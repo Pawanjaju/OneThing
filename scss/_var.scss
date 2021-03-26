@@ -1,0 +1,18 @@
+$bg-section2:#8E7CB5;
+$bg-section3:linear-gradient(90deg,rgba(191,225,255,1) 50%, rgba(255,255,255,1) 50%);
+$bg-section3-3:#BFE1FF;
+$bg-section4:#FFE4E7;
+$bg-section5:#12193B;
+$black:#000000;
+$white:#ffffff;
+$bg-footer:#12193B;
+$top:5rem;
+$bottom:5rem;
+
+@media screen and (max-width:768px){
+.disp-desktop{display:none;}
+}
+
+@media screen and (min-width:769px){
+    .disp-mobile{display:none;}
+}

@@ -1,0 +1,55 @@
+@mixin btn($para1) {
+    background-color: #F2707C;
+    color: #ffffff;
+    padding: 8px 24px;
+    border-radius: $para1;
+    font-weight: 600;
+    font-size: 1.1rem;
+
+    &:hover{
+        background-color: #f03043;
+    }
+
+     @media (max-width:768px) {
+         position: relative;
+         display: block;
+        margin:auto;
+    }
+}
+
+@mixin center-align {
+    position: relative;
+    margin:auto;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+
+@mixin h1($heading_align,$text-color) {
+    font-size: 3rem;
+    padding: 0rem 8rem 1rem 0;
+    text-align: $heading_align;
+    font-family: 'Roboto Regular';
+    color:$text-color;
+    font-weight:600;
+    line-height: 1.4;
+
+    @media (max-width:768px) {
+    font-size: 2rem;
+    padding: 0;
+    }
+}
+
+@mixin p($para_align,$text-color) {
+    padding: 0 7rem 0 0;
+    text-align: $para_align;
+    font-size: 1.1rem;
+    font-family: 'Roboto Light';
+    font-weight: 500;
+    color:$text-color;
+    line-height: 1.8;
+
+  
+}
+
+
